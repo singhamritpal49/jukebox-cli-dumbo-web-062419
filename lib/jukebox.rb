@@ -53,6 +53,7 @@ def run(songs)
     puts "Please enter a command:"
     user_command = gets.chomp
   if user_command == "exit"
+    binding.pry
     exit_jukebox
   
     end
